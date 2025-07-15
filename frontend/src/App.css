@@ -1,0 +1,63 @@
+html, body {
+  min-height: 100vh;
+  background-color: #faf9f8;
+}
+
+.title {
+  max-width: 1180px;
+  margin: 15px auto;
+  display: block;
+  text-align: center;
+}
+
+#app {
+  max-width: 1540px;
+  padding: 15px 20px;
+  margin: 15px auto;
+  background-color: #fff;
+}
+
+.block-label, .block-label-out {
+  font-family: 'Courier New', Courier, monospace;
+  width: 80px;
+  font-size: 14px;
+  color: #303F9F;
+}
+
+.block-label-out {
+  color: #D84315;
+}
+
+.code-text {
+  font-family: monospace;
+  font-size: 14px;
+  margin: 0;
+}
+
+.graph {
+  max-width: 1440px;
+  max-height: 400px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.header-title {
+  font-weight: bold;
+  color: #0078D4;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+

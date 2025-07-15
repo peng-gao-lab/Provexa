@@ -1,0 +1,14 @@
+# react modules
+frontend/node_modules
+
+# build files
+target/
+
+# environment files
+.env
+
+# DS Store files
+.DS_Store
+
+# VSCode
+.vscode/

@@ -1,0 +1,12 @@
+// search
+search from db(testing) where
+e1{exename="bash", type=process},
+e2{type=process}
+with e1->e2
+return * as poi;
+
+// Tracking
+graph = back track poi from db(testing) limit step 3;
+
+// Export graph
+export graph as 'graph';
