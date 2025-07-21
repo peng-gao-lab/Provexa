@@ -1,0 +1,8 @@
+# Postgres Configs
+url=jdbc:postgresql://127.0.0.1:5432/
+dbName=testing
+username=postgres
+password=postgres
+
+# Neo4j Configs
+homeDir=/home/<user>/neo4j

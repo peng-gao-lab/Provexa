@@ -1,0 +1,32 @@
+/* Search */
+
+poi1 = search from db(case2_supply_chain) where
+e1{cmdline like 'freemem.sh', type=process},
+e2{type=process},
+e3{type=process}
+with e1->e2 &&[<100s]
+e2->e3;
+
+
+/* Back Track to see events that that occurred before */
+
+a = back track poi1 from db(case2_supply_chain);
+export a as 'a2';
+
+/* Search in the tracking graph for a specific pattern */
+
+poi2 = search from a where
+e1{cmdline like 'wget', type=process},
+e2{type=process}
+with e1->e2;
+
+
+/* Forward Track to see events that that occurred after */
+
+b = forward track poi1 from db(case2_supply_chain);
+export b as 'b2';
+
+/* Combine graphs to build full attack path */
+
+graph = a|b;
+export graph as 'graph2';

@@ -1,0 +1,5 @@
+x = back track in x
+from where id <= 5 or type != "network"
+exclude nodes where path = "/bin/executable",
+edges where id = 1000
+limit time 10, step 50;
