@@ -6,12 +6,18 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-lavender.svg" alt="License: MIT"></a>
   <a href='https://provexa-app.github.io'><img src='https://img.shields.io/badge/Project-Website-green'></a>
-  <a href='https://arxiv.org/pdf/2211.05403'><img src='https://img.shields.io/badge/Paper-Arxiv-crimson'></a>
+  <a href='https://arxiv.org/pdf/2211.05403v3'><img src='https://img.shields.io/badge/Paper-Arxiv-crimson'></a>
 </p>
 
 ## Overview
 
 Provexa is used to carry out attack investigation from collected system audit logs. It first builds the system provenance data, saves it to a database and provides a Domain-Specific Language (DSL) called `ProvQL` to carry out the investigation.
+<div>
+
+
+Our research paper has been accepted for publication at the <a href="https://vldb.org/2025/" target="_blank"> 51st International Conference on Very Large Databases (VLDB 2025)</a>.
+
+</div>
 
 ## Demo Video
 
@@ -147,13 +153,13 @@ mvn -q exec:java -Dexec.mainClass=main.ExecutorMain -Dexec.args="--help"
 If you use our tool, or find it helpful for your research, please cite us using:
 
 ```bibtex
-@misc{yang2024enablingefficientattackinvestigation,
+@misc{tsegai2025enablingefficientattackinvestigation,
     title={Enabling Efficient Attack Investigation via Human-in-the-Loop Security Analysis}, 
     author={Saimon Amanuel Tsegai and Xinyu Yang and Haoyuan Liu and Peng Gao},
-    year={2024},
+    year={2025},
     eprint={2211.05403},
     archivePrefix={arXiv},
     primaryClass={cs.CR},
-    url={https://arxiv.org/abs/2211.05403},
+    url={https://arxiv.org/abs/2211.05403}, 
 }
 ```
