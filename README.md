@@ -95,6 +95,7 @@ Once the database is populated with the logs, you can use the Provexa WebUI to q
 
 ```bash
 cd frontend
+npm install  # For first run only
 npm start
 
 # if the above fails due to openssl compatibility, try this:
