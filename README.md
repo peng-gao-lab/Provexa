@@ -4,9 +4,9 @@
 </div>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-lavender.svg" alt="License: MIT"></a>
+  <a href='https://www.vldb.org/pvldb/vol18/p3771-gao.pdf'><img src='https://img.shields.io/badge/Paper-VLDB-crimson'></a>
   <a href='https://provexa-app.github.io'><img src='https://img.shields.io/badge/Project-Website-green'></a>
-  <a href='https://arxiv.org/pdf/2211.05403v3'><img src='https://img.shields.io/badge/Paper-Arxiv-crimson'></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-lavender.svg" alt="License: MIT"></a>
 </p>
 
 ## Overview
@@ -154,13 +154,15 @@ mvn -q exec:java -Dexec.mainClass=main.ExecutorMain -Dexec.args="--help"
 If you use our tool, or find it helpful for your research, please cite us using:
 
 ```bibtex
-@misc{tsegai2025enablingefficientattackinvestigation,
-    title={Enabling Efficient Attack Investigation via Human-in-the-Loop Security Analysis}, 
-    author={Saimon Amanuel Tsegai and Xinyu Yang and Haoyuan Liu and Peng Gao},
-    year={2025},
-    eprint={2211.05403},
-    archivePrefix={arXiv},
-    primaryClass={cs.CR},
-    url={https://arxiv.org/abs/2211.05403}, 
+@article{tsegai2025provexa,
+    author = {Tsegai, Saimon Amanuel and Yang, Xinyu and Liu, Haoyuan and Gao, Peng},
+    title = {Enabling Efficient Attack Investigation via Human-in-the-Loop Security Analysis},
+    year = {2025},
+    issue_date = {July 2025},
+    journal = {Proceedings of the VLDB Endowment},
+    volume = {18},
+    number = {11},
+    doi = {10.14778/3749646.3749653},
+    pages = {3771–3783},
 }
 ```
